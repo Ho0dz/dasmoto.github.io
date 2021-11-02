@@ -1,20 +1,38 @@
-.header{
-font-family:Helvetica;
-  font-size:100px;
+body {
+  font-family:Helvetica;//
+}
+.dasmoto h1 {
+  font-size: 100px;
   font-weight:bold;
-  color:khaki;
-  text-align: center;
-  backgroud: url(pattern.jpeg);
+  color: khaki;
+  text align: center;
+}
+  
+  dasmoto {
+    background-image: url("pattern.jpeg");
 }
 
 .brush{
-
+background-color:mediumspringgreen;
+  font-size:32px;
+  font-weight:bold;
+  color:white;
 }
-.frames{
 
+.frame{
+background-color:lightcoral;
+  font-size:32px
+    font-weight:bold;
+  color:white
 }
 .paint{
-
+background-color:skyblue;
+  font-size:32px;
+  font-weight:bold;
+  color:white;
 }
 
-
+.price {
+  color:blue;
+  font-weight:bold;
+}
